@@ -31,3 +31,14 @@ public class PalindromeNumber {
     }
 }
 
+
+/*
+Approach:
+1. Store original number in 'temp'
+2. Reverse the number using modulus and division
+3. Compare reversed number with original
+4. Return true if equal, else false
+Time Complexity: O(log10(n))
+Space Complexity: O(1)
+*/
+
